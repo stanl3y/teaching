@@ -13,7 +13,7 @@
 ## concept
 > what does a database look like?
 
-- database consists of tables
+- db = {table1, table2, table3..}
 - table looks as follows.. it has rows and columns 
 - can slice table in 2 directions
 - can run aggregate functions
