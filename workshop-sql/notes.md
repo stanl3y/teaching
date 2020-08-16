@@ -9,6 +9,11 @@
 - goal: store data
 - 
 
+### demo
+
+
+### [exercises](http://sqlzoo.net)
+
 ### further reading
 note: MariaDB vs MySQL
 
