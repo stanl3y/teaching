@@ -1,5 +1,6 @@
 # SQL: the database query language
-> question: how to query a database?
+### question
+> how to query data from a database?
 
 ### outline
 1. concept
