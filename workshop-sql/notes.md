@@ -48,8 +48,8 @@ SELECT day, place, temperature FROM record LIMIT 4;  # slice vertically
 SELECT * FROM record WHERE place='Prague' LIMIT 4;   # slice horizontally
 
 # aggregate functions
-SELECT place, COUNT(*) FROM record GROUP BY place;  # count records
-SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum records
+SELECT place, COUNT(*) FROM record GROUP BY place;  # count records for each place
+SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitation for each place
 
 
 ```
