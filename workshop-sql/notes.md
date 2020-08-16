@@ -18,7 +18,10 @@
 ## demo
 - DbFiddle [link](https://www.db-fiddle.com/)
 
+
 ```
+# db-schema & data
+
 CREATE TABLE record (
     day DATE NOT NULL COMMENT 'day of measurement',
     place VARCHAR(80) NOT NULL COMMENT 'place of measurement',
@@ -35,6 +38,20 @@ INSERT INTO record (day, place, temperature, precipitation, windspeed) VALUES
 ('2019-08-01','London','62','3.4','2'), ('2019-08-02','London','76','0.2','4'), ('2019-08-03','London','83','1.7','1'), ('2019-08-04','London','90','2.8','0'), ('2019-08-05','London','88','1.5','6'), ('2019-08-06','London','40','3.7','9'), ('2019-08-07','London','61','3.4','9'),
 ('2019-08-01','New York','55','1.1','3'), ('2019-08-02','New York','44','2.2','6'), ('2019-08-03','New York','69','1.8','5'), ('2019-08-04','New York','80','1.4','6'), ('2019-08-05','New York','74','1.9','4'), ('2019-08-06','New York','49','1.7','2'), ('2019-08-07','New York','45','1.2','3')
 ;
+```
+
+
+```
+# basic queries
+SELECT * FROM record;
+SELECT day, place, temperature FROM record LIMIT 4;  # slice vertically
+SELECT * FROM record WHERE place='Prague' LIMIT 4;   # slice horizontally
+
+# aggregate functions
+SELECT place, COUNT(*) FROM record GROUP BY place;  # count records
+SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum records
+
+
 ```
 
 
