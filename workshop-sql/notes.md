@@ -1,4 +1,6 @@
 # SQL: the database query language
+> question: how to query a database?
+
 ### outline
 1. concept
 2. demo
@@ -6,7 +8,7 @@
 4. conclusion / further reading
 
 ## concept
-> goal: store data
+> database purpose: store data
 
 - database consists of tables
 - table looks as follows.. it has rows and columns 
@@ -73,3 +75,7 @@ note: MariaDB vs MySQL
 (documentation)
 - MariaDB https://mariadb.com/kb/en/select/
 - MySQL https://dev.mysql.com/doc/refman/8.0/en/select.html
+
+(NoSQL databases)
+- 
+- MongoDB https://www.mongodb.com/
