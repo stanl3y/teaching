@@ -5,7 +5,7 @@
 3. exercises
 4. conclusion / further reading
 
-### concept
+## concept
 > goal: store data
 
 - database consists of tables
@@ -15,7 +15,7 @@
 
 ![slice table in 2 directions](table-schema.png)
 
-### demo
+## demo
 - DbFiddle [link](https://www.db-fiddle.com/)
 
 ```
@@ -32,18 +32,15 @@ CREATE TABLE record (
 
 INSERT INTO record (day, place, temperature, precipitation, windspeed) VALUES
 ('2019-08-01','Prague','67','2.6','9'), ('2019-08-02','Prague','63','1.7','0'), ('2019-08-03','Prague','64','1.3','9'), ('2019-08-04','Prague','41','3.0','3'), ('2019-08-05','Prague','90','1.3','6'), ('2019-08-06','Prague','89','1.5','9'), ('2019-08-07','Prague','73','2.0','0'),
-
-
 ('2019-08-01','London','62','3.4','2'), ('2019-08-02','London','76','0.2','4'), ('2019-08-03','London','83','1.7','1'), ('2019-08-04','London','90','2.8','0'), ('2019-08-05','London','88','1.5','6'), ('2019-08-06','London','40','3.7','9'), ('2019-08-07','London','61','3.4','9'),
-
 ('2019-08-01','New York','55','1.1','3'), ('2019-08-02','New York','44','2.2','6'), ('2019-08-03','New York','69','1.8','5'), ('2019-08-04','New York','80','1.4','6'), ('2019-08-05','New York','74','1.9','4'), ('2019-08-06','New York','49','1.7','2'), ('2019-08-07','New York','45','1.2','3')
 ;
 ```
 
 
-### [exercises](http://sqlzoo.net)
+## [exercises](http://sqlzoo.net)
 
-### further reading
+## further reading
 note: MariaDB vs MySQL
 
 
