@@ -1,8 +1,13 @@
 # SQL: the database query language
 ### outline
 1. concept
-2. exercises
-3. conclusion / further reading
+2. demo
+3. exercises
+4. conclusion / further reading
+
+### concept
+- goal: store data
+- 
 
 ### further reading
 note: MariaDB vs MySQL
