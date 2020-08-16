@@ -6,10 +6,16 @@
 4. conclusion / further reading
 
 ### concept
-- goal: store data
+> goal: store data
+
+- database consists of tables
 - 
 
 ### demo
+- DbFiddle [link](https://www.db-fiddle.com/)
+
+```
+```
 
 
 ### [exercises](http://sqlzoo.net)
