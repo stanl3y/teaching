@@ -1,3 +1,9 @@
+# SQL: the database query language
+### outline
+1. concept
+2. exercises
+3. conclusion / further reading
+
 ### further reading
 note: MariaDB vs MySQL
 
