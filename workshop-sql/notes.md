@@ -9,7 +9,11 @@
 > goal: store data
 
 - database consists of tables
-- 
+- table looks as follows.. it has rows and columns 
+- can slice table in 2 directions
+- can run aggregate functions
+
+![slice table in 2 directions](table-schema.png)
 
 ### demo
 - DbFiddle [link](https://www.db-fiddle.com/)
