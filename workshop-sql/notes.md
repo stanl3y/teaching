@@ -11,7 +11,7 @@
 4. conclusion / further reading
 
 ## concept
-> 
+> what does a database look like?
 
 - database consists of tables
 - table looks as follows.. it has rows and columns 
