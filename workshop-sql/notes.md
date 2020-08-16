@@ -1,6 +1,8 @@
 # SQL: the database query language
-### question
-> how to query data from a database?
+> database purpose: store data
+
+
+> question: how to query data from a database?
 
 ### outline
 1. concept
@@ -9,7 +11,7 @@
 4. conclusion / further reading
 
 ## concept
-> database purpose: store data
+> 
 
 - database consists of tables
 - table looks as follows.. it has rows and columns 
