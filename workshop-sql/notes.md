@@ -81,6 +81,6 @@ SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitatio
 - MariaDB https://mariadb.com/kb/en/select/
 - MySQL https://dev.mysql.com/doc/refman/8.0/en/select.html
 
+
 (NoSQL databases)
-- 
 - MongoDB https://www.mongodb.com/
