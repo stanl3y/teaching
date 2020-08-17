@@ -61,8 +61,10 @@ SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitatio
 
 
 ## exercises
-SQLZoo [link](http://sqlzoo.net)
+- SQLZoo [link](http://sqlzoo.net)
 ```
+(recommended order)
+
 # starter
 0. SELECT basics 1-3
 
