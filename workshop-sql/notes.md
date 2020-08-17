@@ -63,7 +63,9 @@ SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitatio
 ## [exercises](http://sqlzoo.net)
 
 ## further reading
-note: MariaDB vs MySQL
+(MariaDB vs MySQL)
+- in simplified terms: MySQL is the most common database, and MariaDB is an alias for MySQL
+- (_in more detail: MariaDB is a fork (a clone) of MySQL, since MySQL was bought by Oracle -- i.e. they are very similar, but being developed by different people_)
 
 
 (tutorials)
