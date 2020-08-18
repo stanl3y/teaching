@@ -31,6 +31,13 @@ grep --context
 
 ```
 > pwd
+> ls
+> wget https://raw.githubusercontent.com/stanl3y/teaching/sm-workshop-grep/workshop-grep/onefile.csv
+> ls
+```
+
+```
+> pwd
 /home/runner/SiennaQuintessentialFunction
 > ls
 main.sh
