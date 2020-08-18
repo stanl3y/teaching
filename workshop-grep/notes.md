@@ -112,10 +112,6 @@ SigmaCamp is a week-long math and science sleepaway camp
 for students 12-16 years old. SigmaCamp gives campers a
 ```
 
-### docs
-### grep
-
-
 ### exercises (finally)
 - prerequisites:
   - repl.it online environment with `onefile.csv`
@@ -136,13 +132,13 @@ for students 12-16 years old. SigmaCamp gives campers a
 ```
 (datafiles)
 
-[literature]
-[companies]
-[countries]
-[NYC-galleries]
+[literature] a random selection of ~2000 books
+[companies] Forbes Global 2000 (from 2018)
+[countries] countries of the world
+[NYC-galleries] a list of galleries in NYC
 [nobel-prizes]
-[Olympics]
-[colleges]
+[Olympics] medalists by sport (abridged)
+[colleges] a non-definitive list of US colleges
 [us-presidents]
 ```
 
