@@ -36,6 +36,7 @@ main.sh  onefile.csv  workshop
 /home/runner/SiennaQuintessentialFunction
 ```
 
+- [tldr pages](https://tldr.ostera.io/)
 
 ```
 > wget https://raw.githubusercontent.com/stanl3y/teaching/sm-workshop-grep/workshop-grep/sigma.txt
@@ -74,6 +75,8 @@ scientists who can give a first-hand account of what real
 science research is like. We want to show them the 
 interdependence of the sciences: Physics, Mathematics, 
 ```
+
+- [man pages](http://man.he.net/)
 
 ```
 (pipes)
