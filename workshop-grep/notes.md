@@ -91,9 +91,9 @@ main.sh  onefile.csv
 [Olympics]
 [colleges]
 [us-presidents]
-
-disclaimer: the information in the datafiles may be incomplete and/or incorrect -- they are merely meant to provide exercises for this workshop, NOT to serve as a truthful/reliable source of information
 ```
+
+__disclaimer__: the information in the datafiles may be incomplete and/or incorrect -- they are merely meant to provide exercises for this workshop, NOT to serve as a truthful/reliable source of information
 
 
 
