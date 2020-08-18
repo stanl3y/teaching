@@ -79,9 +79,23 @@ interdependence of the sciences: Physics, Mathematics,
 - [man pages](http://man.he.net/)
 
 ```
-(pipes)
-grep xy example-file | head -n4
-grep xy example-file | wc -l
+(pipes)  # composition
+
+> grep science sigma.txt
+SigmaCamp is a week-long math and science sleepaway camp
+unique opportunity to learn math and science from
+science research is like. We want to show them the 
+interdependence of the sciences: Physics, Mathematics, 
+
+> grep science sigma.txt | grep unique
+unique opportunity to learn math and science from
+
+> grep science sigma.txt | head -n2
+SigmaCamp is a week-long math and science sleepaway camp
+unique opportunity to learn math and science from
+
+> grep science sigma.txt | head -n2 | wc -l
+2
 ```
 
 ```
