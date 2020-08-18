@@ -18,14 +18,57 @@ man: `man grep` or man.he.net
 
 ### demo
 ```
-(grep)
+> pwd
+/home/runner/SiennaQuintessentialFunction
+> ls .
+main.sh  onefile.csv
+> mkdir workshop
+> ls .
+main.sh  onefile.csv  workshop
+> cd workshop/
+> pwd
+/home/runner/SiennaQuintessentialFunction/workshop
+> ls .
+> cd ..
+> pwd
+/home/runner/SiennaQuintessentialFunction
+```
 
-grep keyword
-grep "two words"
-grep --inverse
-grep --count
 
-grep --context
+```
+> echo "grep {{search_pattern}} {{path/to/file}}"
+grep {{search_pattern}} {{path/to/file}}
+
+
+> grep science sigma.txt 
+SigmaCamp is a week-long math and science sleepaway camp
+unique opportunity to learn math and science from
+science research is like. We want to show them the 
+interdependence of the sciences: Physics, Mathematics, 
+
+> grep "math and science" sigma.txt 
+SigmaCamp is a week-long math and science sleepaway camp
+unique opportunity to learn math and science from
+
+>grep -v a sigma.txt 
+following in the footsteps of scientists from the time of 
+
+> grep -c SigmaCamp sigma.txt 
+4
+> grep SigmaCamp sigma.txt
+SigmaCamp is a week-long math and science sleepaway camp
+for students 12-16 years old. SigmaCamp gives campers a
+The goal of SigmaCamp is to ignite a spark of interest and
+the SigmaCampers themselves.
+
+
+> grep research sigma.txt 
+science research is like. We want to show them the 
+
+> grep -C1 research sigma.txt 
+scientists who can give a first-hand account of what real 
+science research is like. We want to show them the 
+interdependence of the sciences: Physics, Mathematics, 
 ```
 
 ```
