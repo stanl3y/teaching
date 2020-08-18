@@ -22,6 +22,8 @@ man: `man grep` or man.he.net
 /home/runner/SiennaQuintessentialFunction
 > ls .
 main.sh  onefile.csv
+> cat main.sh
+echo Hello World
 > mkdir workshop
 > ls .
 main.sh  onefile.csv  workshop
@@ -36,9 +38,11 @@ main.sh  onefile.csv  workshop
 
 
 ```
+> wget https://raw.githubusercontent.com/stanl3y/teaching/sm-workshop-grep/workshop-grep/sigma.txt
+[...]
+
 > echo "grep {{search_pattern}} {{path/to/file}}"
 grep {{search_pattern}} {{path/to/file}}
-
 
 > grep science sigma.txt 
 SigmaCamp is a week-long math and science sleepaway camp
@@ -50,7 +54,7 @@ interdependence of the sciences: Physics, Mathematics,
 SigmaCamp is a week-long math and science sleepaway camp
 unique opportunity to learn math and science from
 
->grep -v a sigma.txt 
+> grep -v a sigma.txt 
 following in the footsteps of scientists from the time of 
 
 > grep -c SigmaCamp sigma.txt 
