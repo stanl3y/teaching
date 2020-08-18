@@ -1,7 +1,7 @@
 # grep: finding the lines you need
 
 ### outline
-1. demo
+1. demo [link](https://repl.it/languages/bash)
 2. exercises
 
 ### cheatsheet
