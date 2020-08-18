@@ -58,10 +58,27 @@ onefile.csv                               100%[=================================
 > ls
 main.sh  onefile.csv
 ```
+
+
 - Puzzle template [link](https://docs.google.com/spreadsheets/d/11DTy6yZE3u2LqXdtTCnPEkvXgRDH9cpUZMbSH4w8hcQ/edit?usp=sharing)
 
 
-### exercises-intro
+### exercises (finally)
+- prerequisites:
+  - repl.it online environment with `onefile.csv`
+  - copy of [Puzzle](https://docs.google.com/spreadsheets/d/11DTy6yZE3u2LqXdtTCnPEkvXgRDH9cpUZMbSH4w8hcQ/edit?usp=sharing)
+
+
+- remarks:
+  - header row: `grep header onefile.csv`
+  - use head to preview: `head -n4 < onefile.csv` or `grep Olympics onefile.csv | head -n4`
+  - careful with cASe
+  - shortlists are reasonable
+
+- more remarks
+  - tab-completion
+  - Ask for Help button in break-out rooms
+
 
 ```
 (datafiles)
@@ -75,13 +92,8 @@ main.sh  onefile.csv
 [colleges]
 [us-presidents]
 
-disclaimer: the information in the datafiles may be incomplete and/or incorrect -- they are merely meant to provide exercises for the grep utility, NOT to serve as a truthful/reliable source of information
+disclaimer: the information in the datafiles may be incomplete and/or incorrect -- they are merely meant to provide exercises for this workshop, NOT to serve as a truthful/reliable source of information
 ```
-
-- remarks:
-  - header row
-  - use `head` to preview
-  - break-out rooms: Ask for Help button
 
 
 
