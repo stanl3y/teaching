@@ -16,8 +16,10 @@
 tldr: https://tldr.ostera.io/
 man: `man grep` or man.he.net
 ```
+
 ```
-grep
+grep keyword
+grep "two words"
 grep --inverse
 grep --count
 
@@ -26,7 +28,7 @@ grep --context
 
 ### docs
 ### grep
-### exercises
+### exercises-setup
 - [repl.it](https://repl.it/languages/bash)
 
 ```
@@ -56,6 +58,30 @@ onefile.csv                               100%[=================================
 > ls
 main.sh  onefile.csv
 ```
-
 - Puzzle template [link](https://docs.google.com/spreadsheets/d/11DTy6yZE3u2LqXdtTCnPEkvXgRDH9cpUZMbSH4w8hcQ/edit?usp=sharing)
+
+
+### exercises-intro
+
+```
+(datafiles)
+
+[literature]
+[companies]
+[countries]
+[NYC-galleries]
+[nobel-prizes]
+[Olympics]
+[colleges]
+[us-presidents]
+
+disclaimer: the information in the datafiles may be incomplete and/or incorrect -- they are merely meant to provide exercises for the grep utility, NOT to serve as a truthful/reliable source of information
+```
+
+- remarks:
+  - header row
+  - use `head` to preview
+  - break-out rooms: Ask for Help button
+
+
 
