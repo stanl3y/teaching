@@ -52,8 +52,3 @@ main.sh  onefile.csv
 
 - Puzzle template [link](https://docs.google.com/spreadsheets/d/11DTy6yZE3u2LqXdtTCnPEkvXgRDH9cpUZMbSH4w8hcQ/edit?usp=sharing)
 
-```
-wget [...]
-```
-
-
