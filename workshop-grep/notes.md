@@ -1,10 +1,8 @@
 # grep: finding the lines you need
 
 ### outline
-- docs
-- explain grep (with examples)
-- explain redirection & pipes
-- exercises
+1. demo
+2. exercises
 
 ### cheatsheet
 
@@ -18,6 +16,7 @@ tldr: https://tldr.ostera.io/
 man: `man grep` or man.he.net
 ```
 
+### demo
 ```
 (grep)
 
