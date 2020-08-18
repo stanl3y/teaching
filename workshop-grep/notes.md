@@ -100,6 +100,15 @@ unique opportunity to learn math and science from
 
 ```
 (redirection)
+> head -n2 <sigma.txt
+SigmaCamp is a week-long math and science sleepaway camp
+for students 12-16 years old. SigmaCamp gives campers a
+
+> head -n2 <sigma.txt >sigma_two_lines.txt
+main.sh  sigma_two_lines.txt  sigma.txt
+> cat sigma_two_lines.txt
+SigmaCamp is a week-long math and science sleepaway camp
+for students 12-16 years old. SigmaCamp gives campers a
 ```
 
 ### docs
