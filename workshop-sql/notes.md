@@ -69,6 +69,7 @@ SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitatio
 0. SELECT basics 1-3
 
 # entrée
+1. SELECT name 1-4
 2. SELECT from World 1-8
 3. SELECT from Nobel 1-10
 5. SUM and COUNT 1-5, 6-8
@@ -77,7 +78,6 @@ SELECT place, SUM(precipitation) FROM record GROUP BY place;  # sum precipitatio
 6. JOIN
 
 # leftovers
-1. SELECT name
 4. SELECT within SELECT
 
 ```
