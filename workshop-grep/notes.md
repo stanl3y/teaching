@@ -12,7 +12,7 @@
 (tricks) head, tail, wc -l
 (further reading) less -S, sort, uniq, cat
 
-tldr: https://tldr.ostera.io/
+tldr: https://tldr.sh/
 man: `man grep` or man.he.net
 ```
 
@@ -36,7 +36,7 @@ main.sh  onefile.csv  workshop
 /home/runner/SiennaQuintessentialFunction
 ```
 
-- [tldr pages](https://tldr.ostera.io/)
+- [tldr pages](https://tldr.sh/)
 
 ```
 > wget https://raw.githubusercontent.com/stanl3y/teaching/sm-workshop-grep/workshop-grep/sigma.txt
@@ -119,6 +119,7 @@ for students 12-16 years old. SigmaCamp gives campers a
 
 
 - remarks:
+  - about datafiles
   - header row: `grep header onefile.csv`
   - use head to preview: `head -n4 < onefile.csv` or `grep Olympics onefile.csv | head -n4`
   - careful with cASe
