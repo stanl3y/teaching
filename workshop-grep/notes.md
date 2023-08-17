@@ -160,14 +160,14 @@ __disclaimer__: the information in the datafiles may be incomplete and/or incorr
 > pwd
 /home/runner/SiennaQuintessentialFunction
 > ls
-main.sh
+main.sh  replit.nix
 > curl -O https://raw.githubusercontent.com/stanl3y/teaching/sm-workshop-grep/workshop-grep/onefile.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--100 2467k  100 2467k    0     0  22.1M      0 --:--:-- --:--:-- --:--:-- 22.3M
 
 > ls
-main.sh  onefile.csv
+main.sh  onefile.csv  replit.nix
 ```
 
 
